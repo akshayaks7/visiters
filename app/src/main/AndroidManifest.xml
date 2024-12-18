@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Visiters"
         tools:targetApi="31">
         <activity
+            android:name=".addvisitor"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
